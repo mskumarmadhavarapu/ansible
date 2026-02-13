@@ -1,0 +1,13 @@
+- name: "Surendra Kumar"
+  dob: "1990-05-25"
+  mobilenumber: 123456789
+  address:
+  - flatnumber: 107
+    street: "edepalli"
+    city: "Machilipatnam"
+    type: "current"
+
+  - flatnumber: 105
+    street: "edepalli"
+    city: "Machilipatnam"
+    type: "Paramanent"
