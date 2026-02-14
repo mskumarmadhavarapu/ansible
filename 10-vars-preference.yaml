@@ -1,22 +1,21 @@
 - name: varaiables preference
   hosts: local
   connection: local
-  # vars:
-  #   NAME: "Ansible from PLAY"
+  vars:
+    NAME: "Ansible from PLAY"
   vars_files:
     - course.yaml
-  # vars_prompt:
-  #- name: NAME
-  #  prompt: Please enter name
-  #  private: false
-  # tasks:
-  # - name: print name
-    #vars: 
-    #  NAME: "Ansible from TASK"
-    # ansible.builtin.debug:
-    #   msg: "Hi {{ NAME }}"
+  vars_prompt:
+  - name: NAME
+    prompt: Please enter name
+    private: false
+  tasks:
+  - name: print name
+    vars: 
+      NAME: "Ansible from TASK"
+    ansible.builtin.debug:
+      msg: "Hi {{ NAME }}"
 
 # 1. Args
 # 2. Task
 # 3. Prompt
-# 4. Play
