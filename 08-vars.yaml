@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: print varaiables
-    vars:
-      COURSE: Ansible
+    #vars:
+     # COURSE: Ansible
     ansible.builtin.debug:
       msg: "Course is: {{ COURSE }}"
