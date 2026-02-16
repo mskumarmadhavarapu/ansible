@@ -1,6 +1,6 @@
 - name: varaiables preference
-  hosts: all
-  connection: all
+  hosts: local
+  connection: local
   # vars:
   #   NAME: "Ansible from PLAY"
   # vars_files:
