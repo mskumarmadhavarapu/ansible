@@ -5,10 +5,10 @@
     PROGRAM: "DevOps with AWS" # string
     DURATION: 140 # int/number
     IS_LIVE: true # bool
-    DETAILS:
+    DETAILS: # map/dictionary { }
       MONTHS: 4
       TRAINER: "SivaKumar Reddy"
-    TOPICS:
+    TOPICS: # list -/[]
     - Linux
     - Shell
     - Ansible
