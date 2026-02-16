@@ -21,3 +21,10 @@
         Is_live: {{ IS_LIVE('\n') }}
         Details: {{ DETAILS('\n') }}
         Topics: {{ TOPICS('\n') }}
+
+  - name: Use a multiline string block
+    ansible.builtin.debug:
+      msg: |
+        Line one
+        Line two
+        Line three
