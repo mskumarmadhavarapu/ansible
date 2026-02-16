@@ -16,8 +16,8 @@
   - name: print varaiables
     ansible.builtin.debug:
       msg: |
-        Program: "{{ PROGRAM('\n') }}"
-        Duration: "{{ DURATION('\n') }}"
-        Is_live: "{{ IS_LIVE('\n') }}""
+        Program: {{ PROGRAM('\n') }}
+        Duration: {{ DURATION('\n') }}
+        Is_live: "{{ IS_LIVE('\n') }}"
         Details: "{{ DETAILS('\n') }}"
         Topics: "{{ TOPICS('\n') }}"
