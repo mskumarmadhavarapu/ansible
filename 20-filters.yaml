@@ -40,8 +40,8 @@
   
   - name: read studets yaml
     ansible.builtin.set_fact: # setting the varaiable
-      studet_yaml: "{{ lookup('file', 'studet_yaml') | from_yaml }}"
+      student_yaml: "{{ lookup('file', 'student.yaml') | from_yaml }}"
   
   - name: convert YAML to JSON
     ansible.builtin.debug:
-      msg: "{{ studet_yaml | to_nice_json }}"
+      msg: "{{ student_yaml | to_nice_json }}"
