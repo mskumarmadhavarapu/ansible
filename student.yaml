@@ -11,3 +11,17 @@
     street: "edepalli"
     city: "Machilipatnam"
     type: "Paramanent"
+    
+- name: "Suresh"
+  dob: "1999-01-01"
+  mobileNumber: 1234567890
+  addresses:
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: current
+  
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: perm
