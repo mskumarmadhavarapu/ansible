@@ -1,5 +1,6 @@
 - name: demo on error handling
   hosts: local
+  become: yes
   connection: local
   tasks:
   - name: check user exist or not
